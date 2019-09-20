@@ -12,6 +12,8 @@ go get -u github.com/XiaochenCui/goroutine
 ## Usage
 
 ```go
-id := CurGoroutineID()
+import "github.com/XiaochenCui/goroutine"
+
+id := goroutine.CurGoroutineID()
 fmt.Println(id)
 ```
