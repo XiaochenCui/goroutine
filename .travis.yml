@@ -4,6 +4,8 @@ go:
   - 1.11
   - 1.12
   - master
+install:
+  - go get -u golang.org/x/lint/golint
 script:
   make test
 notifications:
